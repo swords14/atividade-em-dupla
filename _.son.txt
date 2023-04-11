@@ -1,0 +1,73 @@
+1
+entidades:
+Funcionário:
+Nome (string)
+Cargo (string)
+Data de Admissão (date)
+Salário (float)
+E-mail (string)
+Telefone (string)
+Departamento:
+Nome (string)
+Descrição (string)
+Responsável (string)
+Orçamento (float)
+Localização (string)
+
+2
+criar o seguinte modelo físico de dados:
+Funcionário:
+
+ID (int, primary key)
+Nome (string)
+Cargo (string)
+Data de Admissão (date)
+Salário (float)
+E-mail (string)
+Telefone (string)
+ID_Departamento (int, foreign key)
+Departamento:
+
+
+
+    {
+  "funcionarios": [
+    {
+      "id": 1,
+      "nome": "Ana Silva",
+      "cargo": "Gerente de Vendas",
+      "dataAdmissao": "2020-01-01",
+      "salario": 10000.00,
+      "email": "ana.silva@abc.com",
+      "telefone": "+55 11 9999-8888",
+      "idDepartamento": 1
+    },
+    {
+      "id": 2,
+      "nome": "José Santos",
+      "cargo": "Analista de Sistemas",
+      "dataAdmissao": "2020-02-01",
+      "salario": 8000.00,
+      "email": "jose.santos@abc.com",
+      "telefone": "+55 11 9999-7777",
+      "idDepartamento": 2
+    },
+    {
+      "id": 3,
+      "nome": "Mariana Oliveira",
+      "cargo": "Analista de Marketing",
+      "dataAdmissao": "2021-01-01",
+      "salario": 7000.00,
+      "email": "mariana.oliveira@abc.com",
+      "telefone": "+55 11 9999-6666",
+      "idDepartamento": 2
+    },
+    {
+      "id": 4,
+      "nome": "Pedro Souza",
+      "cargo": "Desenvolvedor Full Stack",
+      "dataAdmissao": "2021-03-01",
+      "salario": 6000.00,
+      "email:pedrosouza@abc.com"
+      "telefone:+55 11 8888-8888
+      "idDepartamento: 3"
